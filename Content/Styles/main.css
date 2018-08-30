@@ -1,4 +1,11 @@
-﻿body, ul, li, p, h1, h2, h3, p {
+﻿body,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+p {
     margin: 0;
     padding: 0;
     line-height: 200%;
@@ -20,7 +27,9 @@ h1 {
     line-height: 24px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: normal;
 }
 
@@ -44,7 +53,9 @@ h3 {
 }
 
 /*公用类别*/
-a:link, a:visited, a:active {
+a:link,
+a:visited,
+a:active {
     background: inherit;
     text-decoration: none;
     color: #4B6073;
@@ -62,14 +73,14 @@ ul {
     padding: 0;
 }
 
-    ul li {
-        height: auto;
-        padding-bottom: 5px;
-        display: block;
-        margin: 0;
-        min-height: 20px;
-        padding: 0;
-    }
+ul li {
+    height: auto;
+    padding-bottom: 5px;
+    display: block;
+    margin: 0;
+    min-height: 20px;
+    padding: 0;
+}
 
 /*list前图标*/
 .nav {
@@ -79,4 +90,24 @@ ul {
     min-height: 30px;
     min-width: 40px;
     display: inline-block;
+}
+
+.header {
+    text-align: center;
+    background: url(/Content/Images/bg.jpg) no-repeat center top;
+}
+
+.me_img {
+    border-radius: 300px;
+    width: 180px;
+    height: 180px;
+}
+
+.me_name {
+    font-size: 16px;
+    color: #666;
+}
+
+.me_description {
+    color: gray;
 }
