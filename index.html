@@ -6,5 +6,14 @@ title: 清风君-我本一缕清风，逍遥天地间
 最新文章
  
 {% for post in site.posts %}
-{{ post.date | date_to_string }} {{ post.title }}
+<div class="item">
+        <h3>
+            <span class="nav">&nbsp;</span><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}  </a></h3>
+        <span class="dateline">发表于 {{ post.date | date_to_string }}</span>
+        <p>
+            @m.Description
+        </p>
+    </div>
+
+ 
 {% endfor %}
