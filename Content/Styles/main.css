@@ -8,15 +8,11 @@ body {
     font-size: 14px;
     font-family: "微软雅黑", Arial, sans-serif;
     color: #444;
-    min-width: 1200px;
-    padding-top: 50px;
-    background: url(/Content/Images/bg.jpg) no-repeat center top;
     background-color: #d4e9fa;
 }
 
 #main {
     margin: auto;
-    width: 1200px;
 }
 
 h1 {
