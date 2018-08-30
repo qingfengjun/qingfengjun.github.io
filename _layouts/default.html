@@ -1,2 +1,24 @@
-{{ page.title }}
-{{ content }}
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="@ViewBag.description" />
+    <link rel="icon" href="/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+    <title>{{ page.title }}</title>
+    <link href="/Content/Styles/main.css" rel="stylesheet" />
+    <link href="/Content/Styles/menu.css" rel="stylesheet" />
+    <link href="/Content/Styles/list.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main">
+        <div id="content">
+            {{ content }}
+        </div>
+    </div>
+</body>
+</html>
