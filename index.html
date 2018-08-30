@@ -2,9 +2,9 @@
 layout: default
 title: 清风君-我本一缕清风，逍遥天地间
 ---
-{{ page.title }}
+
 最新文章
-   
+ 
 {% for post in site.posts %}
 {{ post.date | date_to_string }} {{ post.title }}
 {% endfor %}
