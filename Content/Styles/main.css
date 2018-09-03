@@ -18,6 +18,27 @@ body {
     background-color: #d4e9fa;
 }
 
+@media screen and (min-width: 1201px) {
+    #main {
+        width: 1200px
+    }
+}
+
+/* css注释：设置了浏览器宽度不小于1201px时 abc 显示1200px宽度 */
+@media screen and (max-width: 1200px) {
+    #main {
+        width: 900px
+    }
+}
+
+/* 设置了浏览器宽度不大于1200px时 abc 显示900px宽度 */
+@media screen and (max-width: 901px) {
+    #main {
+        width: 100%;
+    }
+}
+
+/* 设置了浏览器宽度不大于901px时 abc 显示200px宽度 */
 #main {
     margin: auto;
 }
@@ -48,7 +69,7 @@ h3 {
 #content {
     margin: 0px;
     padding: 20px 20px 20px 20px;
-    background-color: #E3F5FF;
+    /* background-color: #E3F5FF; */
     margin-bottom: 50px;
 }
 
@@ -95,7 +116,7 @@ ul li {
 
 .header {
     text-align: center;
-    background: url(/Content/Images/bg.jpg) no-repeat center top;
+    background: url(/Content/Images/bg2.jpg) no-repeat center top;
 }
 
 .me_img {
