@@ -133,3 +133,13 @@ ul li {
 .me_description {
     color: gray;
 }
+
+.head_nav {
+    background-color: #f4fcfe;
+}
+
+.head_nav a {
+    line-height: 45px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
