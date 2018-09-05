@@ -15,7 +15,7 @@ body {
     font-size: 14px;
     font-family: "微软雅黑", Arial, sans-serif;
     color: #444;
-    background-color: #d4e9fa;
+    /* background-color: #d4e9fa; */
 }
 
 @media screen and (min-width: 1201px) {
@@ -116,18 +116,20 @@ ul li {
 
 .header {
     text-align: center;
-    background: url(/Content/Images/bg2.jpg) no-repeat center top;
+    /* background: url(/Content/Images/bg2.jpg) no-repeat center top; */
+    .header
 }
 
 .me_img {
     border-radius: 300px;
-    width: 180px;
-    height: 180px;
+    width: 120px;
+    height: 120px;
+    padding-top: 5px;
 }
 
 .me_name {
     font-size: 16px;
-    color: #666;
+    color: white;
 }
 
 .me_description {
@@ -135,11 +137,51 @@ ul li {
 }
 
 .head_nav {
-    background-color: #f4fcfe;
+    /* background-color: #f4fcfe; */
 }
 
 .head_nav a {
     line-height: 45px;
     padding-right: 20px;
     padding-left: 20px;
+    background-color: black;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+div.item {
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e0dddd;
+}
+
+    div.item p {
+        text-indent: 2em;
+    }
+
+.dateline {
+    color: #999;
+    font-size: 12px;
+}
+
+.entrylistTitle {
+    font-size: 110%;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    text-align: right;
+    padding: 1em;
+    font-size: 1.3em;
+    color: #1c7791;
+    border-bottom: 1px solid #D1E6F3;
+}
+
+.entrylistDescription {
+    color: #666;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin-bottom: 10px;
 }
