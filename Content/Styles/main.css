@@ -151,7 +151,7 @@ ul li {
     color: white;
     text-decoration: none;
 }
-.head_nav a :hover{
+.head_nav a:hover{
     line-height: 45px;
     padding-right: 20px;
     padding-left: 20px;
@@ -196,4 +196,11 @@ div.item p {
     padding-bottom: 5px;
     padding-right: 10px;
     margin-bottom: 10px;
+}
+
+/* 页面大类样式 */
+.categoryHead{
+    font-size: 16px;
+    color: #e0dddd;
+    margin-bottom: 20px;
 }
