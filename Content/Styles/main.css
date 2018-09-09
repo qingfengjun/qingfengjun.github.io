@@ -117,7 +117,7 @@ ul li {
 .header {
     text-align: center;
     /* background: url(/Content/Images/bg2.jpg) no-repeat center top; */
-    .header
+    background-color: maroon;
 }
 
 .me_img {
@@ -157,9 +157,9 @@ div.item {
     border-bottom: 1px solid #e0dddd;
 }
 
-    div.item p {
-        text-indent: 2em;
-    }
+div.item p {
+    text-indent: 2em;
+}
 
 .dateline {
     color: #999;
