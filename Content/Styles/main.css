@@ -141,10 +141,9 @@ ul li {
 }
 
 .me_img {
-    border-radius: 300px;
-    width: 120px;
-    height: 120px;
-    padding-top: 5px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
 }
 
 .me_name {
@@ -154,6 +153,7 @@ ul li {
 
 .me_description {
     color: gray;
+    text-indent: 2em;
 }
 
 .head_nav {
@@ -233,6 +233,7 @@ div.item p {
 .header_center {
     width: 805px;
     margin: auto;
+    padding-top: 5px;
 }
 
 .header_left {
