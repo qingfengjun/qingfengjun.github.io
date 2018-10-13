@@ -1,18 +1,34 @@
 ---
 layout: default
-title: 清风君-我本一缕清风，逍遥天地间
 ---
-<div class="categoryHead">个人基本信息</div>
-<div>13年从事IT工作，熟悉dotnet、web开发、数据库、系统设计</div>
 
-<div>目前 对微服务（spring cloud），前端框架（react、angular6），es6 比较感兴趣</div>
+<div class="main-post-list hidden">
 
-<hr />
+    <ol class="post-list">
+        {% for post in paginator.posts %}
+        <li>
+            <h2 class="post-link post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{
+                post.title }}</a></h2>
+            <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
+            <div class="post-list__meta">
+                <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date
+                    | date: "%F"}}
+                </time>
+                {% if site.leancloud.enable %}
+				<span id="{{ post.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
+				 <span class="post-meta-divider tags"></span>
+				 <span class="post-meta-item-text tags"> 阅读量:  </span>
+				 <span class="leancloud-visitors-count tags"></span>
+				</span>
+                {% endif %}
+                <span class="post-list__meta--tags tags">{{ post.tags }}</span><a class="btn-border-small"
+                                                                                  href={{ post.url }}>继续阅读</a>
+            </div>
+            <hr class="post-list__divider"/>
+        </li>
+        {% endfor %}
+    </ol>
 
-<div>爱好自由 安静的心灵 </div>
+    {% include pagination.html %}
 
-<div>个性签名：我本一缕清风，逍遥天地间 </div>
-
-<div>业余爱好美术，轮滑</div>
-
-<div>喜欢文学、心理学、武侠、仙侠</div>
+</div>

@@ -1,35 +1,27 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="@ViewBag.description" />
-    <link rel="icon" href="/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
-    <title>{{ page.title }}</title>
-    <link href="/Content/Styles/main.css" rel="stylesheet" />
-</head>
+  {% include head.html %}
 
-<body>
-    <div class="header">
-        <div class="header_center">
-            <div class="header_left"> <img src="/Content/Images/me.png" class="me_img"></div>
-            <div class="header_right">
-                <div class="me_name">清风君--个人博客</div>
-                <div class="me_description">我本一缕清风，逍遥天地间</div>
+  <body>
 
-            </div>
-            <div class="head_nav"><a href="/index.html">个人</a>|<a href="/blog.html">技术</a>|<a href="/essay.html">心情</a>|<a
-                    href="/collect.html">收集</a></div>
-            <div class="clear"></div>
-        </div>
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+    </span>
 
-    </div>
-    <div id="main">
-        <div id="content">
+    {% include side-panel.html %}
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
             {{ content }}
+            {% include footer.html %}
+            {% include leancloud-analytics.html %}
         </div>
     </div>
-</body>
+
+    {% include external.html %}
+
+  </body>
 
 </html>

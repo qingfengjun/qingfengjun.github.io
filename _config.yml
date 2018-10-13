@@ -1,2 +1,62 @@
-baseurl: /
+# Basic
+title: 清风君-我本一缕清风，逍遥天地间
+subtitle: 我本一缕清风，逍遥天地间
+welcome_message: 欢迎来到清风君的世界
+description: 分享技术，分享生活
+creator: <a href="#">@清风君</a>
+
+url: "http://vno.onevcat.com"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: blue
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog列表
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Projects, description: My Projects, url: 'https://github.com/jinyb09017/jinyb09017.github.io'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+categeries:
+    - {title: android, description: 安卓技术, url: '/category/android/index.html'}
+    - {title: javascript, description: javascript技术, url: '/category/javascript/index.html'}
+    - {title: tools, description: 实用工具介绍, url: '/category/tools/index.html'}
+    - {title: talk, description: 技术杂谈, url: '/category/talk/index.html'}
+    - {title: java, description: java技术, url: '/category/java/index.html'}
+    - {title: network, description: 网络协议, url: '/category/network/index.html'}
+# Pagination
 gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment 这是disqus的评论系统
+comment:
+    disqus: abbott-king
+    # duoshuo: 
+    
+# Social
+
+social:
+    weibo: abbottking
+    github: jinyb09017
+    twitter: mrjinyb
+    gplus: 109069755103858985204
+    mail: jyb_96@sina.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
+
+leancloud:
+  enable: true
+  app_id: n9H2t3VFwwMPqC0rSYfvlJuu-gzGzoHsz
+  app_key: DkeWUHsd9YIYIsnKRg6vw1Lk
