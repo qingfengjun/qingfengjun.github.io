@@ -22,16 +22,15 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'https://github.com/jinyb09017/jinyb09017.github.io'}
+    - {title: Projects, description: My Projects, url: 'https://github.com/qingfengjun/qingfengjun.github.io'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 categeries:
-    - {title: android, description: 安卓技术, url: '/category/android/index.html'}
-    - {title: javascript, description: javascript技术, url: '/category/javascript/index.html'}
-    - {title: tools, description: 实用工具介绍, url: '/category/tools/index.html'}
-    - {title: talk, description: 技术杂谈, url: '/category/talk/index.html'}
-    - {title: java, description: java技术, url: '/category/java/index.html'}
-    - {title: network, description: 网络协议, url: '/category/network/index.html'}
+    - {title: 技术, description: 技术, url: '/category/jishu/index.html'}
+    - {title: 随笔, description: 随笔, url: '/category/suibi/index.html'}
+    - {title: 照片, description: 照片, url: '/category/zhaopian/index.html'}
+    - {title: 生活, description: 生活, url: '/category/shenghuo/index.html'}
+    - {title: 收集, description: 收集, url: '/category/shouji/index.html'}
 # Pagination
 gems: [jekyll-paginate]
 paginate: 10
@@ -45,11 +44,9 @@ comment:
 # Social
 
 social:
-    weibo: abbottking
-    github: jinyb09017
-    twitter: mrjinyb
-    gplus: 109069755103858985204
-    mail: jyb_96@sina.com
+    weibo: https://www.cnblogs.com/xiaoshuai1992/
+    github: qingfengjun
+    mail: xshuai1992@163.com
 
 # Google Analytics
 ga:
