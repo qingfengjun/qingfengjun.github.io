@@ -13,12 +13,12 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: blue
+cover_color: green
 
 # The blog button should not be removed.
 blog_button:
-    title: Blog列表
-    description: Visit blog
+    title: 全部
+    description: 全部
 
 # Navigation buttons in the front page.
 nav:
@@ -31,6 +31,7 @@ categeries:
     - {title: 照片, description: 照片, url: '/category/zhaopian/index.html'}
     - {title: 生活, description: 生活, url: '/category/shenghuo/index.html'}
     - {title: 收集, description: 收集, url: '/category/shouji/index.html'}
+    - {title: 个人, description: 个人, url: '/category/me/index.html'}
 # Pagination
 gems: [jekyll-paginate]
 paginate: 10
